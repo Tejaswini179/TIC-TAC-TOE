@@ -8,7 +8,7 @@ const Board = () => {
   let status ; 
 
   if(winner){
-    status = 'Winner is : ' + winner
+    status =  "✨"+"🌟"+ 'Winner is  ' + winner +"🌟"+"✨"
     // alert('Winner is : ' + winner)
   }
   else{
